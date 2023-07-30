@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="col-xs-12 header_div text-center">
+
+      <h2>Sound Controlled Animals</h2>
+      <h3>Play meow, bark, moo or chirping sounds for recognizing these animals</h3>
+      <p> Start doing any of the actions above after clicking "START" Button!</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <hr>
+        <button class="btn btn-warning" onclick="startClassfication();">START</button>
+        <h3 id="result_label"> I can hear - </h3>
+        <h4 id="result_confidence">Accuracy - </h4>
+        <br>
+        <img src="cat-cartoon-colored-clipart-illustration-free-vector.jpg" id="cat" width="300" height="300">
+        <img src="dog-cartoon-colored-clipart-illustration-free-vector.jpg" id="dog" width="300" height="300">
+        <img src="Bird-of-peace-clip-art-free-vector-in-open-office-drawing-svg.jpg" id="bird" width="300" height="300">
+        <img src="dairy-cow-standing-cartoon-character_1308-92233.avif" id="cow" width="300" height="300">
+
+        <div class="copy_right_footer">
+          Developed By - Sai Kirtan
+         </div>
+         <div class="copy_right_footer">
+          
+          </div>
+      </center>
+    </div>
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
