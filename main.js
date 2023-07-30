@@ -8,7 +8,7 @@ function modelReady() {
     console.log("Model is Ready");
 }
 function gotResults(error, results) {
-    if (error) {
+/*    if (error) {
         console.log(error);
     }
     else{
@@ -61,4 +61,5 @@ function gotResults(error, results) {
             img4.src = img4;
         }
     }
-}   
+*/
+}
